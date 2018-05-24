@@ -240,7 +240,20 @@
 </template>
 
 <script>
-export default {};
+import axios from 'axios';
+export default {
+  created() {
+    this.moviesDefault();
+  },
+
+  methods: {
+    moviesDefault() {
+      axios.get('http://www.omdbapi.com/?apikey=c53bd7a7&s=2016').then(response => {
+        console.log(response.data);
+      });
+    }
+  }
+};
 </script>
 
 <style>

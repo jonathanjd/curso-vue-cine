@@ -56,7 +56,7 @@ import Body from './Body.vue';
 export default {
     data: () => ({
         drawer: false,
-        ages: ['2018', '2017', '2016', '2015'],
+        ages: ['2016', '2015', '2014', '2013'],
         genres: ['Acción', 'Comedia', 'Infantil', 'Terror']
     }),
     props: {
