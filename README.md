@@ -1,10 +1,10 @@
-# vue-cine
+# Vue Cine
 
-> Mini Proyecto
+![Project Image](/img/vue-cine.jpeg)
 
-## Build Setup
+## Instalación
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -15,4 +15,6 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Api
+
+[OMDb](http://www.omdbapi.com/)
